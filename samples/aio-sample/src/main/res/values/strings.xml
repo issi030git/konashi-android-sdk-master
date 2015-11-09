@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AioSample</string>
+
+    <string name="btn_read">Read</string>
+    <string name="btn_find">konashiをさがす</string>
+    <string name="label_value">ここに測定値が表示されます</string>
+</resources>
