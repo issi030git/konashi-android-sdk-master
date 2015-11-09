@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        int i = 0;int b =0;int c = 0;int d = 0;
+        int i = 0;int b =0;int c = 0;int d = 0;int ee = 0;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.btn_send).setOnClickListener(this);
