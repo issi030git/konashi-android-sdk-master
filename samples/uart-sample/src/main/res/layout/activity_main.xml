@@ -11,14 +11,14 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/btn_find"
-            android:id="@+id/btn_find"
-            android:gravity="center_horizontal" />
+            android:id="@+id/btn_find" />
 
         <LinearLayout
             android:orientation="vertical"
@@ -65,8 +65,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/btn_send"
             android:text="@string/btn_send"
-            android:visibility="visible"
-            android:gravity="center_horizontal" />
+            android:visibility="visible" />
 
         <TableLayout
             android:layout_width="match_parent"
@@ -84,21 +83,24 @@
                     android:layout_height="wrap_content"
                     android:text="s"
                     android:id="@+id/s"
-                    android:layout_column="0" />
+                    android:layout_column="0"
+                    android:layout_weight="1" />
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="c"
                     android:id="@+id/c"
-                    android:layout_column="1" />
+                    android:layout_column="1"
+                    android:layout_weight="1" />
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="e"
                     android:id="@+id/e"
-                    android:layout_column="2" />
+                    android:layout_column="2"
+                    android:layout_weight="1" />
             </TableRow>
 
             <TableRow
@@ -111,21 +113,24 @@
                     android:layout_height="wrap_content"
                     android:text="n"
                     android:id="@+id/n"
-                    android:layout_column="0" />
+                    android:layout_column="0"
+                    android:layout_weight="1" />
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="p"
                     android:id="@+id/p"
-                    android:layout_column="1" />
+                    android:layout_column="1"
+                    android:layout_weight="1" />
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="r"
                     android:id="@+id/r"
-                    android:layout_column="1" />
+                    android:layout_column="1"
+                    android:layout_weight="1" />
             </TableRow>
         </TableLayout>
     </LinearLayout>
